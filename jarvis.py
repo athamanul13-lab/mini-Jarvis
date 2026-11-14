@@ -24,7 +24,7 @@ with sr.Microphone() as source:
             elif "wa" in teks:
                 webbrowser.get(chrome).open("https://web.whatsapp.com/")
             elif "vs code" in teks:
-                
+                os.startfile("vscode")
             elif "cukup" in teks:
                 break
         except sr.UnknownValueError:
